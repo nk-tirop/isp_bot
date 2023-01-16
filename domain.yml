@@ -1,0 +1,41 @@
+version: "2.0"
+
+intents:
+- bot_challenge
+- no_internet
+- slow_internet
+- change_password
+- reactivate_subscription
+- upgrade_subscription
+
+actions:
+- action_iambot
+- action_no_internet
+- action_slow_internet
+- action_change_password
+- action_reactivate_subscription
+- action_upgrade_subscription
+
+templates:
+  utter_check_router:
+    - text: "Please check if your router is connected to a valid power socket and turned on. Are the lights on the router showing that it is turned on?"
+
+  utter_confirm_lights_on:
+    - text: "Thank you for confirming. Please check your internet connection and let us know if the problem persist."
+
+  utter_connect_router:
+    - text: "Please connect it to a valid power source and turn it on. Let us know if the problem persist."
+
+  utter_network_congestion:
+    - text: "The network might be congested, please restrict the number of connections allowed. Has this helped with the slow internet speed?"
+
+  utter_subscription_renewal:
+    - text: "Your subscription has expired. Please renew it."
+
+  utter_account_deactivated:
+    - text: "Your account has been deactivated."
+  utter_iamabot:
+   - text: I am a bot, powered by Rasa.
+
+  utter_contact_us:
+    - text: "We are sorry, we could not find the problem. Please contact us for further assistance."

@@ -1,0 +1,54 @@
+## bot challenge
+* bot_challenge
+  - utter_iamabot
+  
+## no internet
+* no_internet
+    - action_no_internet
+    - affirm
+    - action_no_internet
+    - deny
+    - action_no_internet
+    - inform
+    - action_no_internet
+    - affirm
+    - action_no_internet
+
+## slow internet
+* slow_internet
+    - action_slow_internet
+    - affirm
+    - action_slow_internet
+
+## password request
+* password
+    - action_password
+    - affirm
+    - action_password
+    - inform
+    - action_password
+    - inform
+    - action_password
+    - inform
+    - action_password
+
+## change password
+* change_password
+    - action_password
+    - affirm
+    - action_password
+    - inform
+    - action_password
+    - inform
+    - action_password
+    - inform
+    - action_password
+    - inform
+
+## activate or subscribe
+* subscriptions
+    - action_subscriptions
+    - inform
+    - action_subscriptions
+    - inform
+    - action_subscriptions

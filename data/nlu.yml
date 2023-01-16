@@ -1,0 +1,162 @@
+intent: bot challenge
+examples:
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+intents:
+- no_internet
+  examples:
+  - I have no internet connection
+  - My internet is not working
+  - I can't access the internet
+  - My internet is down
+  - I am not able to connect to the internet
+  - My internet is not working
+  - I am having trouble with my internet connection
+  - I am unable to access the internet
+  - My router is not providing internet access
+  - I am not getting any internet on my device
+
+- slow_internet
+  examples:
+  - My internet is slow
+  - The internet is slow
+  - I am experiencing slow internet speed
+  - My internet is taking forever to load
+  - Slow internet connection
+  - Internet speed is low
+  - Slow browsing experience
+  - Slow loading times
+  - Slow streaming
+  - Can't watch videos because internet is slow
+  - Slow download speeds
+  - The internet is crawling
+  - Slow internet speed
+  - Slow WiFi
+  - Slow network
+  - Slow data transfer
+  - Internet is lagging
+  - Slow connection
+  - My internet is running slow
+  - Slow streaming experience
+  - Slow browsing speed
+  - Slow download rate
+  - Slow streaming speed
+  - Slow internet connection speed
+  - Slow data transfer rate
+  - Slow upload speed
+  - Slow webpage loading
+  - Slow internet performance
+  - Slow video playback
+  - Slow network connection
+  - Slow internet access
+  - Slow internet download
+
+- change_password
+  examples:
+  - I forgot my password
+  - I need help with my password
+  - Can you reset my password
+  - I want to change my password
+  - Can you help me change my password
+  - I need to update my password
+  - I want to change my login password
+  - Can you assist me with changing my password
+
+- reactivate_subscription
+  examples:
+  - I want to reactivate my subscription
+  - How can I reactivate my account
+  - My subscription has expired, how can I renew it
+  - I want to reactivate my account
+  - I want to activate my subscription
+  - I want to subscribe
+  - Can I activate my account
+  - How can I start my subscription
+
+- upgrade_sub
+intents:
+- no_internet
+  examples:
+  - I have no internet connection
+  - My internet is not working
+  - I can't access the internet
+  - My internet is down
+  - I am not able to connect to the internet
+  - My internet is not working
+  - I am having trouble with my internet connection
+  - I am unable to access the internet
+  - My router is not providing internet access
+  - I am not getting any internet on my device
+
+- slow_internet
+  examples:
+  - My internet is slow
+  - The internet is slow
+  - I am experiencing slow internet speed
+  - My internet is taking forever to load
+  - Slow internet connection
+  - Internet speed is low
+  - Slow browsing experience
+  - Slow loading times
+  - Slow streaming
+  - Can't watch videos because internet is slow
+  - Slow download speeds
+  - The internet is crawling
+  - Slow internet speed
+  - Slow WiFi
+  - Slow network
+  - Slow data transfer
+  - Internet is lagging
+  - Slow connection
+  - My internet is running slow
+  - Slow streaming experience
+  - Slow browsing speed
+  - Slow download rate
+  - Slow streaming speed
+  - Slow internet connection speed
+  - Slow data transfer rate
+  - Slow upload speed
+  - Slow webpage loading
+  - Slow internet performance
+  - Slow video playback
+  - Slow network connection
+  - Slow internet access
+  - Slow internet download
+
+- change_password
+  examples:
+  - I forgot my password
+  - I need help with my password
+  - Can you reset my password
+  - I want to change my password
+  - Can you help me change my password
+  - I need to update my password
+  - I want to change my login password
+  - Can you assist me with changing my password
+
+- reactivate_subscription
+  examples:
+  - I want to reactivate my subscription
+  - How can I reactivate my account
+  - My subscription has expired, how can I renew it
+  - I want to reactivate my account
+  - I want to activate my subscription
+  - I want to subscribe
+  - Can I activate my account
+  - How can I start my subscription
+
+intent: upgrade_subscription
+examples:
+
+- I want to upgrade my subscription
+- Can I upgrade my plan
+- How do I upgrade my account
+- I want to upgrade my internet package
+- I want to upgrade my subscription level
+- I would like to upgrade my subscription
+- Can I change my subscription to a higher level
+- I want to switch to a better subscription plan
+- I want to upgrade my current subscription
+- How can I upgrade my subscription package

@@ -1,0 +1,68 @@
+{
+    "routers": [
+        {
+            "router_number": "12345",
+            "under_maintainance": false,
+            "subscription_status": true,
+            "subscription_type": "fast",
+            "password": "mypassword",
+            "is_active": true
+        },
+        {
+            "router_number": "67890",
+            "under_maintainance": true,
+            "subscription_status": false,
+            "subscription_type": "medium",
+            "password": "secretpassword",
+            "is_active": true
+        },
+        {
+            "router_number": "09876",
+            "under_maintainance": false,
+            "subscription_status": true,
+            "subscription_type": "very_fast",
+            "password": "password123",
+            "is_active": false
+        },
+        {
+            "router_number": "54321",
+            "under_maintainance": false,
+            "subscription_status": true,
+            "subscription_type": "slow",
+            "password": "routerpassword",
+            "is_active": true
+        },
+        {
+            "router_number": "09876",
+            "under_maintainance": true,
+            "subscription_status": true,
+            "subscription_type": "fast",
+            "password": "myrouterpassword",
+            "is_active": true
+        },
+        {
+            "router_number": "246810",
+            "under_maintainance": false,
+            "subscription_status": true,
+            "subscription_type": "medium",
+            "password": "bestpassword",
+            "is_active": true
+        },
+        {
+            "router_number": "13579",
+            "under_maintainance": false,
+            "subscription_status": false,
+            "subscription_type": "very_fast",
+            "password": "topsecret",
+            "is_active": false
+        },
+        {
+            "router_number": "24680",
+            "under_maintainance": true,
+            "subscription_status": true,
+            "subscription_type": "slow",
+            "password": "mysecretpassword",
+            "is_active": true
+        }
+    ]
+}
